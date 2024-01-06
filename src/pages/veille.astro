@@ -1,0 +1,243 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="Ma Veille | Leroux Théo" description="Ma Veille Leroux théo">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="Ma Veille Informatique"
+				tagline="Une petite presentation de ma veille"
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/iot.jpg"
+					alt="picture of iot"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Présentation</h2>
+				<div class="content">
+					<p>
+						La veille technologique ou veille scientifique et technique consiste à s’informer de façon systématique
+                        sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale 
+                        (ce qui constitue la différence entre la technique et la technologique). Cette activité met en
+                        œuvre des techniques d’acquisition, de stockage et d’analyse d’informations et leur distribution
+                        automatique aux différentes sections concernées de l’entreprise, à la manière d’une revue de presse.
+					</p>
+				</div>
+			</section>
+			</main>
+			<main class="wrapper about">
+			<Hero
+				tagline="Les outils de ma veille technologique"
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/logo-ma-veille.jpg"
+					alt="the logos of the tools for my technological monitoring"
+				/>
+			</Hero>
+			<section>
+				<h2 class="section-title">L’INTERNET DES OBJETS : QU’EST-CE QUE C’EST ?</h2>
+				<div class="content">
+					<p>L’Internet des objets (ou IoT pour Internet of Things) désigne à la fois le processus de connexion d’objets physiques
+                    à Internet et le réseau qui relie ces objets. Par « objets », on entend aussi bien des appareils de la vie 
+                    quotidienne (domotique, montre de fitness, etc.) que des appareillages médicaux, des machines agricoles, des chaînes 
+                    d’approvisionnement, des robots industriels ou des feux de circulation routière.</p>
+					<p> 
+                    En définitive, l’IoT relie tout élément capable de transférer des données sur un réseau. Et ce, sans nécessiter 
+                    d’interactions entre humains ou entre un humain et un ordinateur. Cependant, l’interaction personne-machine est 
+                    rendue possible, ne serait-ce que pour procéder au paramétrage, à la configuration ou simplement pour accéder aux 
+                    informations.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">COMMENT FONCTIONNE L’IOT ?</h2>
+				<div class="content">
+					<p>Un écosystème IoT est composé d’objets compatibles avec le Web ou utilisant des systèmes informatiques embarqués.
+					Un objet connecté à l’IoT est capable de collecter des données sur son environnement via des capteurs. Il exploite 
+					ensuite ces dernières via des processeurs avant de les envoyer à un ou plusieurs destinataires à l’aide de son matériel 
+					de communication intégré.<br>
+					Il partage les données collectées par le biais d’une passerelle IoT. Il s’agit d’une solution permettant la communication
+					entre appareils ou entre ceux-ci et le cloud. Les informations sont donc transférées directement vers le cloud à des fins
+					d’analyse et d’exploitation ou à un autre appareil IoT pour une analyse locale.</p>
+				</div>
+			</section>
+		</main>
+
+		<main class="wrapper about">
+			<Hero
+				title="Quels sont les risques de l'internet des objets ?"
+				tagline="Quels sont les moyens de sécuriser l'internet des objets ?"
+			>
+			</Hero>
+			<section>
+				<h2 class="section-title">1. Se renseigner sur l'objet connecté avant l'achat</h2>
+				<div class="content">
+					<p>Il est important de se renseigner sur les spécificités de l’objet en question,
+					son mode de fonctionnement, ses interactions avec d’autres appareils électroniques et les données qu’il collecte
+					lors de son utilisation. Il convient également de vérifier l’absence de failles de sécurité connues qui pourraient
+					être exploitées pour prendre le contrôle de l’objet ou compromettre la sécurité de votre environnement numérique
+					et de vos données. Pour ce faire, il est recommandé de consulter des sites Internet spécialisés, le site du 
+					fabricant ainsi que les commentaires des utilisateurs qui peuvent fournir des informations précieuses.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">2. Modifier les mots de passes par défaut des objets connectés</h2>
+				<div class="content">
+					<p>Les mots de passe, codes PIN, etc. qui sont générés par défaut par les fabricants sont souvent
+					considérés comme étant trop faibles en raison d’un nombre insuffisant de caractères utilisés,
+					de leur caractère facilement devinable ou publiquement connu. Ainsi, ils ne fournissent pas un
+					niveau de sécurité adéquat. Par conséquent, il est absolument essentiel de changer le mot de passe 
+					par défaut dès la première utilisation et de le remplacer par un mot de passe suffisamment long et 
+					complexe pour garantir la sécurité de votre objet connecté. Cette recommandation est également valable 
+					pour tous les appareils de votre réseau numérique.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">3. Mettre à jour sans tarder les objets connectés et les applications associées</h2>
+				<div class="content">
+					<p>Il est fortement recommandé de procéder aux mises à jour de sécurité des objets connectés et des applications
+					qui y sont liées dès qu’elles sont disponibles. Cela permet d’éviter que des cybercriminels exploitent des failles
+					de sécurité pour prendre le contrôle de l’objet ou accéder à des informations personnelles sensibles. Dans la mesure
+					du possible, il est recommandé de configurer l’objet connecté de manière à ce que les mises à jour se téléchargent
+					et s’installent automatiquement.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">4. Protéger nos informations personnelles</h2>
+				<div class="content">
+					<p>Afin de protéger notre identité numérique lors de la création de comptes en ligne pour les objets connectés,
+					il est recommandé d’utiliser un mot de passe solide et unique, différent de ceux utilisés pour d’autres comptes.
+					Il est également important de ne communiquer que les informations strictement nécessaires (date de naissance aléatoire,
+					âge approximatif, etc.) et d’utiliser des pseudonymes plutôt que des noms et prénoms réels. Si possible, il est
+					conseillé de créer une adresse de messagerie spécifique pour les objets connectés afin de prévenir la réception
+					de messages indésirables dans la boîte de réception principale.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">5. Vérifiez les paramètres de sécurité de vos objets connectés et de leurs applications</h2>
+				<div class="content">
+					<p>Il est important de vérifier que l’objet connecté ne permet pas à des tiers de s’y connecter en veillant à ce que
+					toute connexion à partir d’un autre appareil (téléphone mobile, tablette, ordinateur, etc.) ou via Internet ne puisse
+					être effectuée qu’en utilisant un bouton d’accès sur l’objet ou en saisissant un mot de passe. De plus, il est
+					recommandé de désactiver les fonctionnalités telles que le partage de données sur les réseaux sociaux si vous
+					n’en avez pas besoin ou ne les utilisez pas, afin de réduire les risques de piratage et de fuite incontrôlée
+					de données personnelles.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">6. Éteignez systématiquement vos objets connectés lorsque vous ne les utilisez pas</h2>
+				<div class="content">
+					<p>Il est recommandé d’éteindre ou de déconnecter les objets connectés lorsque vous ne les utilisez pas afin
+					de réduire les risques de piratage, de vol de données ou d’intrusion malveillante.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">7. Mettez à jour les appareils raccordés à vos objets connectés</h2>
+				<div class="content">
+					<p>Il est important de mettre à jour les appareils associés aux objets connectés tels que les téléphones mobiles,
+					tablettes ou ordinateurs dès que des mises à jour sont disponibles pour éviter que les cybercriminels puissent accéder
+					à ces appareils en exploitant une faille de sécurité, et ainsi atteindre les objets connectés. Il est également
+					recommandé de redémarrer régulièrement la box Internet, car c’est généralement par ce biais que les objets connectés
+					se connectent à Internet.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">8. Sécurisez votre connexion Wi-fi</h2>
+				<div class="content">
+					<p>Il est primordial de sécuriser la connexion Wi-Fi utilisée par les objets connectés pour réduire les risques
+					de piratage et de prise de contrôle à distance. Pour cela, il est recommandé d’utiliser un mot de passe solide
+					et de vérifier que la connexion utilise le chiffrement en « WPA2 », qui est actuellement considéré comme la
+					méthode de chiffrement Wi-Fi la plus sûre.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">9. Limitez l’accès de vos objets connectés aux autres appareils électroniques ou informatiques</h2>
+				<div class="content">
+					<p>Afin de réduire les risques de piratage, il est conseillé de limiter l’association ou l’appairage des objets connectés
+					aux seuls appareils nécessaires pour les fonctionnalités que vous utilisez. Si possible, il est recommandé d’utiliser
+					ces objets connectés sur un réseau séparé des autres équipements informatiques de votre environnement en utilisant
+					un réseau privé virtuel ou VLAN.</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">10. Supprimez vos données et réinitialisez votre objet lorsque vous ne vous en servez plus</h2>
+				<div class="content">
+					<p>Avant de vous séparer de votre objet connecté, que ce soit à cause d’une vente ou d’une panne, il est essentiel
+					d’effacer toutes les données qu’il peut contenir et de supprimer le compte en ligne associé. Si l’objet est lié
+					à plusieurs comptes en ligne, comme des comptes de réseaux sociaux, il est également conseillé de supprimer ces
+					associations. En outre, si cela est possible, réinitialisez l’objet aux paramètres par défaut (configuration usine)
+					pour éviter que des personnes malveillantes aient accès à des données personnelles telles que le mot de passe Wi-Fi.
+					Cela permettra de limiter les risques de compromission de votre vie privée.</p>
+				</div>
+			</section>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
